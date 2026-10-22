@@ -31,12 +31,29 @@
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
+
     OneSignalDeferred.push(async function(OneSignal) {
       await OneSignal.init({
         appId: "db374131-673a-4676-bbd2-93e72b2a6ceb",
         safari_web_id: "web.onesignal.auto.3431b9a6-8377-4186-9b23-bf65dbb4a731",
+
         notifyButton: {
           enable: true
+        },
+
+        promptOptions: {
+          slidedown: {
+            prompts: [
+              {
+                type: "push",
+                autoPrompt: true,
+                delay: {
+                  pageViews: 1,
+                  timeDelay: 5
+                }
+              }
+            ]
+          }
         }
       });
     });
@@ -263,6 +280,7 @@
     <strong>Ávila Autopartes</strong><br>
     Distribuidor y tienda virtual de repuestos del automotor.
   </p>
+
   <p>
     <a href="https://avilaautopartes.com.ar/">avilaautopartes.com.ar</a>
   </p>
