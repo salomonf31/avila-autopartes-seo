@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://avilaautopartes.com.ar/</loc>
   </url>
-
   <url>
-    <loc>https://avilaautopartes.com.ar/pastilla-freno-peugeot-partner.html</loc>
+    <loc>https://avilaautopartes.com.ar/campana-freno-renault-sandero-logan-clio-megane-TEN-98204942</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
-
   <url>
-    <loc>https://avilaautopartes.com.ar/pastilla-freno-volkswagen-suran-fox.html</loc>
+    <loc>https://avilaautopartes.com.ar/disco-freno-renault-clio-kangoo-logan-sandero.html</loc>
   </url>
-
+  <url>
+    <loc>https://avilaautopartes.com.ar/disco-freno-renault-kangoo.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://avilaautopartes.com.ar/envios-caba.html</loc>
+  </url>
+  <url>
+    <loc>https://avilaautopartes.com.ar/envios-cordoba.html</loc>
+  </url>
+  <url>
+    <loc>https://avilaautopartes.com.ar/envios-gba.html</loc>
+  </url>
+  <url>
+    <loc>https://avilaautopartes.com.ar/envios-misiones.html</loc>
+  </url>
+  <url>
+    <loc>https://avilaautopartes.com.ar/envios-san-luis.html</loc>
+  </url>
   <url>
     <loc>https://avilaautopartes.com.ar/kit-x2-cilindros-rueda-traseros-corsa-classic-agile.html</loc>
   </url>
-
-<url>
-  <loc>https://avilaautopartes.com.ar/campana-freno-renault-sandero-logan-clio-megane-TEN-98204942</loc>
-  <lastmod>2026-10-26</lastmod>
-</url>
-
-<url>
-  <loc>https://avilaautopartes.com.ar/disco-freno-renault-clio-kangoo-logan-sandero.html</loc>
-</url>
-
-<url>
-  <loc>https://avilaautopartes.com.ar/disco-freno-renault-kangoo.html</loc>
-  <lastmod>2026-10-26</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url><loc>https://avilaautopartes.com.ar/envios-caba.html</loc></url>
-<url><loc>https://avilaautopartes.com.ar/envios-gba.html</loc></url>
-<url><loc>https://avilaautopartes.com.ar/envios-cordoba.html</loc></url>
-<url><loc>https://avilaautopartes.com.ar/envios-san-luis.html</loc></url>
-<url><loc>https://avilaautopartes.com.ar/envios-misiones.html</loc></url>
-
+  <url>
+    <loc>https://avilaautopartes.com.ar/pastilla-freno-peugeot-partner.html</loc>
+  </url>
+  <url>
+    <loc>https://avilaautopartes.com.ar/pastilla-freno-volkswagen-suran-fox.html</loc>
+  </url>
 </urlset>
