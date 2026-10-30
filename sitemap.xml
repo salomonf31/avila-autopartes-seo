@@ -46,9 +46,12 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
-  <url>
-    <loc>https://avilaautopartes.com.ar/pastilla-freno-fiat-cronos.html</loc>
-  </url>
+ <url>
+  <loc>https://avilaautopartes.com.ar/pastilla-freno-fiat-cronos.html</loc>
+  <lastmod>2026-05-13</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
     <url>
     <loc>https://avilaautopartes.com.ar/amortiguador-delantero-chevrolet-corsa-nakata-kit-x2.html</loc>
   </url>
