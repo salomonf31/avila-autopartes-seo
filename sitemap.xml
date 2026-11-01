@@ -34,8 +34,11 @@
   <url>
     <loc>https://avilaautopartes.com.ar/kit-x2-cilindros-rueda-traseros-corsa-classic-agile.html</loc>
   </url>
-  <url>
+    <url>
     <loc>https://avilaautopartes.com.ar/pastilla-freno-peugeot-partner.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avilaautopartes.com.ar/pastilla-freno-volkswagen-suran-fox.html</loc>
