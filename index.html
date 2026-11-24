@@ -4,26 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Ávila Autopartes | Repuestos del Automotor</title>
+  <title>Frenos, Embrague, Tren Delantero y Distribución | Ávila Autopartes - Mayorista y Minorista en Laferrere</title>
 
-  <meta name="description" content="Ávila Autopartes, distribuidor y tienda virtual de repuestos del automotor. Frenos, embragues, pastillas, discos, amortiguadores y suspensión para distintas marcas y modelos. Envíos a CABA y GBA.">
+  <meta name="description" content="Ávila Autopartes en Laferrere: frenos, embrague, tren delantero y distribución de repuestos. Venta mayorista y minorista. Pastillas, discos, kits de embrague, amortiguadores y rótulas. Envíos a CABA y GBA.">
 
   <meta name="robots" content="index, follow">
-
   <link rel="canonical" href="https://avilaautopartes.com.ar/">
-
-  <meta property="og:title" content="Ávila Autopartes | Repuestos del Automotor">
-  <meta property="og:description" content="Distribuidor y tienda virtual de repuestos del automotor: frenos, embragues, suspensión, pastillas, discos y amortiguadores. Envíos a CABA y GBA.">
+  <meta property="og:title" content="Ávila Autopartes | Frenos, Embrague, Tren Delantero y Distribución - Mayorista y Minorista">
+  <meta property="og:description" content="Distribuidor de repuestos: frenos, embrague, tren delantero. Venta mayorista y minorista en Laferrere.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://avilaautopartes.com.ar/">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "AutoPartsStore",
     "name": "Ávila Autopartes",
-    "alternateName": "Ávila Autopartes | Repuestos del Automotor",
-    "url": "https://avilaautopartes.com.ar/"
+    "description": "Frenos, embrague, tren delantero y distribución de repuestos. Venta mayorista y minorista en Laferrere.",
+    "url": "https://avilaautopartes.com.ar/",
+    "telephone": "+541159116047",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Gregorio de Laferrere",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "AR"
+    }
   }
   </script>
 
@@ -31,266 +36,101 @@
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
-
     OneSignalDeferred.push(async function(OneSignal) {
       await OneSignal.init({
         appId: "db374131-673a-4676-bbd2-93e72b2a6ceb",
         safari_web_id: "web.onesignal.auto.3431b9a6-8377-4186-9b23-bf65dbb4a731",
-
-        notifyButton: {
-          enable: true
-        },
-
-        promptOptions: {
-          slidedown: {
-            prompts: [
-              {
-                type: "push",
-                autoPrompt: true,
-                delay: {
-                  pageViews: 1,
-                  timeDelay: 5
-                }
-              }
-            ]
-          }
-        }
+        notifyButton: { enable: true },
+        promptOptions: { slidedown: { prompts: [{ type: "push", autoPrompt: true, delay: { pageViews: 1, timeDelay: 5 } }] } }
       });
     });
   </script>
 
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5f5f5;
-      color: #222;
-    }
-
-    header {
-      background: #111;
-      color: white;
-      padding: 22px 20px;
-      text-align: center;
-      border-bottom: 5px solid #c40000;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 30px;
-    }
-
-    header p {
-      margin: 8px 0 0;
-      color: #ddd;
-      line-height: 1.6;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    .producto {
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 3px 15px rgba(0,0,0,.08);
-    }
-
-    h2 {
-      color: #c40000;
-      font-size: 24px;
-      line-height: 1.4;
-    }
-
-    p {
-      line-height: 1.7;
-      font-size: 17px;
-    }
-
-    .boton {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 14px 22px;
-      background: #c40000;
-      color: white;
-      text-decoration: none;
-      border-radius: 7px;
-      font-weight: bold;
-    }
-
-    .boton:hover {
-      background: #990000;
-    }
-
-    .datos {
-      margin-top: 25px;
-      padding: 20px;
-      background: #f1f1f1;
-      border-radius: 8px;
-      line-height: 2;
-    }
-
-    .seccion {
-      margin-top: 30px;
-      padding-top: 10px;
-      border-top: 1px solid #ddd;
-    }
-
-    .enlaces-productos {
-      padding-left: 22px;
-    }
-
-    .enlaces-productos li {
-      margin: 12px 0;
-      line-height: 1.6;
-    }
-
-    .enlaces-productos a {
-      color: #a60000;
-      font-weight: bold;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      color: #666;
-      line-height: 1.7;
-    }
-
-    @media (max-width: 600px) {
-      .producto {
-        padding: 22px;
-      }
-
-      header h1 {
-        font-size: 26px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
-    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f5f5f5; color: #222; }
+    header { background: #111; color: white; padding: 22px 20px; text-align: center; border-bottom: 5px solid #c40000; }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin: 8px 0 0; color: #ddd; line-height: 1.6; }
+    main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+    .producto { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,.08); }
+    h2 { color: #c40000; font-size: 24px; line-height: 1.4; }
+    p { line-height: 1.7; font-size: 17px; }
+    .boton { display: inline-block; margin-top: 15px; padding: 14px 22px; background: #c40000; color: white; text-decoration: none; border-radius: 7px; font-weight: bold; }
+    .boton:hover { background: #990000; }
+    .datos { margin-top: 25px; padding: 20px; background: #f1f1f1; border-radius: 8px; line-height: 2; }
+    .seccion { margin-top: 30px; padding-top: 10px; border-top: 1px solid #ddd; }
+    .enlaces-productos { padding-left: 22px; }
+    .enlaces-productos li { margin: 12px 0; line-height: 1.6; }
+    .enlaces-productos a { color: #a60000; font-weight: bold; }
+    footer { text-align: center; padding: 30px 20px; color: #666; line-height: 1.7; }
+    @media (max-width: 600px) { .producto { padding: 22px; } header h1 { font-size: 26px; } h2 { font-size: 22px; } }
   </style>
 </head>
-
 <body>
-
 <header>
-  <h1>Ávila Autopartes</h1>
-  <p>Distribuidor y tienda virtual de repuestos del automotor</p>
+  <h1>Ávila Autopartes - Frenos, Embrague, Tren Delantero y Distribución</h1>
+  <p>Venta Mayorista y Minorista | Laferrere - Buenos Aires</p>
 </header>
-
 <main>
   <section class="producto">
-
-    <h2>Repuestos del automotor para distintas marcas y modelos</h2>
-
+    <h2>Frenos, Embrague y Tren Delantero para todas las marcas</h2>
     <p>
-      En <strong>Ávila Autopartes</strong> encontrás repuestos del automotor
-      para distintas marcas y modelos. Somos un
-      <strong>distribuidor y tienda virtual de autopartes</strong> que atiende
-      consultas de repuesteros y clientes que necesitan identificar la pieza
-      correcta para su vehículo.
+      En <strong>Ávila Autopartes</strong> encontrás <strong>frenos, embrague, tren delantero y distribución</strong> de repuestos para todas las marcas. Somos <strong>distribuidores de repuestos</strong> con <strong>venta mayorista y minorista</strong> en Laferrere.
     </p>
-
     <p>
-      Nos especializamos en <strong>frenos, embragues y suspensión</strong>.
-      Consultá por pastillas de freno, discos, campanas, amortiguadores,
-      homocinéticas y otros repuestos según la aplicación del vehículo.
+      Nos especializamos en <strong>frenos, embragues y tren delantero</strong>. Consultá por pastillas de freno, discos, campanas, kits de embrague, amortiguadores, rótulas, bujes, parrillas y extremos de dirección según la aplicación del vehículo.
     </p>
-
     <p>
-      Para encontrar el repuesto adecuado, podés consultar por marca,
-      modelo, año y código de la pieza. Verificá la compatibilidad,
-      el precio y la disponibilidad antes de realizar tu pedido.
+      Para encontrar el repuesto adecuado, podés consultar por marca, modelo, año y código de la pieza. Verificá la compatibilidad, el precio y la disponibilidad antes de realizar tu pedido.
     </p>
-
     <div class="datos">
       <strong>Rubro:</strong> Repuestos del automotor<br>
-      <strong>Especialidades:</strong> Frenos • Embragues • Suspensión<br>
-      <strong>Productos:</strong> Pastillas • Discos • Campanas • Amortiguadores<br>
-      <strong>Venta:</strong> Distribuidor y tienda virtual<br>
-      <strong>Envíos:</strong> CABA y GBA<br>
-      <strong>Consultas:</strong> Precio y disponibilidad
+      <strong>Especialidades:</strong> Frenos • Embrague • Tren Delantero • Distribución<br>
+      <strong>Productos:</strong> Pastillas • Discos • Kits de Embrague • Amortiguadores • Rótulas<br>
+      <strong>Venta:</strong> Mayorista y Minorista<br>
+      <strong>Envíos:</strong> Laferrere, González Catán, CABA y GBA<br>
+      <strong>WhatsApp:</strong> 11 5911-6047
     </div>
-
-    <a
-      class="boton"
-      href="https://script.google.com/macros/s/AKfycbxrBb34jWSTFeaiVqxG6-HGw3pahb2PlL1JbNnUOt0KCQtHLF2qiFenjuM_JEQrKWA3/exec">
+    <a class="boton" href="https://script.google.com/macros/s/AKfycbxrBb34jWSTFeaiVqxG6-HGw3pahb2PlL1JbNnUOt0KCQtHLF2qiFenjuM_JEQrKWA3/exec">
       VER CATÁLOGO DE ÁVILA AUTOPARTES
+    </a>
+    <br>
+    <a class="boton" href="https://wa.me/541159116047?text=Hola%20Avila%20Autopartes,%20consulto%20por%20frenos,%20embrague,%20tren%20delantero%20o%20venta%20mayorista" style="background:#25D366">
+      CONSULTAR POR WHATSAPP
     </a>
 
     <section class="seccion">
-      <h2>Repuestos y autopartes por vehículo</h2>
-
-      <p>
-        Consultá nuestras páginas de productos para conocer más detalles
-        sobre repuestos específicos y sus aplicaciones.
-      </p>
-
-      <ul class="enlaces-productos">
-        <li>
-          <a href="https://avilaautopartes.com.ar/pastilla-freno-chevrolet-corsa.html">
-            Pastillas de freno Chevrolet Corsa
-          </a>
-        </li>
-
-        <li>
-          <a href="https://avilaautopartes.com.ar/amortiguador-delantero-chevrolet-corsa-nakata-kit-x2.html">
-            Kit x2 de amortiguadores delanteros Chevrolet Corsa — Nakata
-          </a>
-        </li>
-
-<li>
-  <a href="https://avilaautopartes.com.ar/pastilla-freno-fiat-cronos-argo-grand-siena-1-3-mazfren-mz-3257m.html">
-    Pastillas de freno Fiat Cronos, Argo y Grand Siena 1.3 — MAZFREN MZ-3257M
-  </a>
-</li>
-        
-       <li>
-          <a href="https://avilaautopartes.com.ar/amortiguador-delantero-volkswagen-fox-suran-nakata-kit-x2.html">
-            Kit x2 de amortiguadores delanteros Volkswagen Fox y Suran — Nakata
-          </a>
-        </li>
-      </ul>
+      <h2>Frenos</h2>
+      <p>Todo para frenos: pastillas de freno, discos de freno, campanas, cilindros, flexibles y líquido de freno para Chevrolet, Ford, Volkswagen, Fiat, Renault, Peugeot y Toyota.</p>
+      <h2>Embrague</h2>
+      <p>Kits de embrague completos: placa, disco y crapodina. Embragues para Corsa, Gol, Palio, Clio, 207, Fiesta, Ecosport y más.</p>
+      <h2>Tren Delantero</h2>
+      <p>Todo el tren delantero: amortiguadores, rótulas, bujes, parrillas, extremos, axiales, bieletas y cazoletas.</p>
+      <h2>Distribución - Venta Mayorista y Minorista</h2>
+      <p><strong>Distribución de repuestos</strong> para talleres, casas de repuestos y revendedores. <strong>Venta minorista</strong> por unidad al público y <strong>venta mayorista</strong> con precios especiales para talleres y negocios. Consultá por lista mayorista.</p>
     </section>
 
     <section class="seccion">
-      <h2>Frenos, embragues y suspensión para tu vehículo</h2>
-
-      <p>
-        Si buscás una casa de repuestos del automotor o un distribuidor
-        de autopartes, en Ávila Autopartes podés consultar por productos
-        para distintas marcas y modelos. Te ayudamos a verificar el código
-        y la aplicación para que puedas identificar el repuesto que necesitás.
-      </p>
-
-      <p>
-        Realizamos consultas y pedidos por WhatsApp y coordinamos envíos
-        a CABA y GBA.
-      </p>
+      <h2>Repuestos y autopartes por vehículo</h2>
+      <p>Consultá nuestras páginas de productos para conocer más detalles sobre repuestos específicos y sus aplicaciones.</p>
+      <ul class="enlaces-productos">
+        <li><a href="https://avilaautopartes.com.ar/pastilla-freno-chevrolet-corsa.html">Pastillas de freno Chevrolet Corsa</a></li>
+        <li><a href="https://avilaautopartes.com.ar/amortiguador-delantero-chevrolet-corsa-nakata-kit-x2.html">Kit x2 de amortiguadores delanteros Chevrolet Corsa — Nakata</a></li>
+        <li><a href="https://avilaautopartes.com.ar/pastilla-freno-fiat-cronos-argo-grand-siena-1-3-mazfren-mz-3257m.html">Pastillas de freno Fiat Cronos, Argo y Grand Siena 1.3 — MAZFREN MZ-3257M</a></li>
+        <li><a href="https://avilaautopartes.com.ar/amortiguador-delantero-volkswagen-fox-suran-nakata-kit-x2.html">Kit x2 de amortiguadores delanteros Volkswagen Fox y Suran — Nakata</a></li>
+      </ul>
     </section>
-
+    <section class="seccion">
+      <h2>Frenos, embragues y tren delantero para tu vehículo</h2>
+      <p>Si buscás una casa de repuestos del automotor o un distribuidor de autopartes en Laferrere, en Ávila Autopartes podés consultar por productos para distintas marcas y modelos. Te ayudamos a verificar el código y la aplicación para que puedas identificar el repuesto que necesitás.</p>
+      <p>Realizamos consultas y pedidos por WhatsApp y coordinamos envíos a Laferrere, CABA y GBA.</p>
+    </section>
   </section>
 </main>
-
 <footer>
-  <p>
-    <strong>Ávila Autopartes</strong><br>
-    Distribuidor y tienda virtual de repuestos del automotor.
-  </p>
-
-  <p>
-    <a href="https://avilaautopartes.com.ar/">avilaautopartes.com.ar</a>
-  </p>
+  <p><strong>Ávila Autopartes</strong><br>Distribuidor de repuestos - Frenos, Embrague, Tren Delantero<br>Venta Mayorista y Minorista - Laferrere</p>
+  <p><a href="https://avilaautopartes.com.ar/">avilaautopartes.com.ar</a></p>
 </footer>
-
 </body>
 </html>
